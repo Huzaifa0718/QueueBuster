@@ -1,0 +1,127 @@
+.costItemChild {
+  height: 30px;
+  width: 47.9px;
+  position: relative;
+}
+.costOfSoftware {
+  position: relative;
+  white-space: pre-wrap;
+}
+.costItem {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-xl) 0;
+  gap: var(--gap-xl);
+}
+.queuebusterSaasSoftware {
+  flex: 1;
+  position: relative;
+  line-height: 34px;
+  display: inline-block;
+  max-width: 100%;
+}
+.description {
+  align-self: stretch;
+  border-radius: var(--br-9xs);
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-3xs) 0;
+  box-sizing: border-box;
+}
+.benefits,
+.costItemParent,
+.description {
+  display: flex;
+  max-width: 100%;
+}
+.benefits {
+  width: 468px;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  min-width: 468px;
+  font-size: var(--p3-size);
+  color: var(--color-black);
+}
+.costItemParent {
+  flex: 1;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.windowsBasedLegacyErp {
+  flex: 1;
+  position: relative;
+  line-height: 34px;
+  display: inline-block;
+  max-width: 100%;
+}
+.comparisonDetails {
+  align-self: stretch;
+  border-radius: var(--br-9xs);
+  flex-direction: row;
+  align-items: center;
+  padding: var(--padding-3xs) var(--padding-3xs) var(--padding-3xs) 0;
+  box-sizing: border-box;
+}
+.comparisonDetails,
+.comparisonDetailsWrapper,
+.frameParent {
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.comparisonDetailsWrapper {
+  width: 386px;
+  flex-direction: column;
+  align-items: flex-start;
+  min-width: 386px;
+  font-size: var(--p3-size);
+  color: var(--color-black);
+}
+.frameParent {
+  width: 1397.9px;
+  flex-direction: row;
+  align-items: center;
+  gap: var(--gap-95xl);
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-darkslategray-100);
+  font-family: var(--p3);
+}
+@media screen and (max-width: 1325px) {
+  .comparisonDetailsWrapper {
+    flex: 1;
+  }
+  .frameParent {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 900px) {
+  .benefits {
+    flex: 1;
+    min-width: 100%;
+  }
+  .costItemParent {
+    flex-wrap: wrap;
+    min-width: 100%;
+  }
+  .comparisonDetailsWrapper {
+    min-width: 100%;
+  }
+  .frameParent {
+    gap: var(--gap-38xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .costOfSoftware {
+    font-size: var(--font-size-base);
+  }
+  .frameParent {
+    gap: var(--gap-9xl);
+  }
+}

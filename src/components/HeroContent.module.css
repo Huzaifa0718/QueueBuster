@@ -1,0 +1,219 @@
+.trustedBy65000 {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 52px;
+  font-weight: 700;
+  font-family: inherit;
+}
+.topCitiesForVeganTraveller {
+  width: 386px;
+  position: relative;
+  max-height: 100%;
+  margin-top: -6px;
+  max-width: 100%;
+}
+.trustIcon {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+.covidWarning,
+.trustContent,
+.trustIcon {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.covidWarning {
+  width: 613px;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.trustContent {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 var(--padding-2xl) 0 var(--padding-xl);
+  box-sizing: border-box;
+}
+.propertiesIcon {
+  height: 81px;
+  width: 228px;
+  position: relative;
+  object-fit: contain;
+}
+.japan {
+  width: 269px;
+  border-radius: var(--br-3xs);
+  background-color: var(--primary-white);
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-smi) var(--padding-smi) var(--padding-sm);
+  box-sizing: border-box;
+}
+.propertiesIcon1 {
+  height: 81px;
+  width: 228px;
+  position: relative;
+  object-fit: contain;
+}
+.recceGrahamResort {
+  width: 269px;
+  border-radius: var(--br-3xs);
+  background-color: var(--primary-white);
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-smi) var(--padding-smi) var(--padding-sm);
+  box-sizing: border-box;
+}
+.propertiesIcon2 {
+  height: 81px;
+  width: 228px;
+  position: relative;
+  object-fit: contain;
+}
+.newZealand {
+  width: 269px;
+  border-radius: var(--br-3xs);
+  background-color: var(--primary-white);
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-smi) var(--padding-smi) var(--padding-sm);
+  box-sizing: border-box;
+}
+.propertiesIcon3 {
+  height: 81px;
+  width: 228px;
+  position: relative;
+  object-fit: contain;
+}
+.firesideDinners {
+  width: 269px;
+  border-radius: var(--br-3xs);
+  background-color: var(--primary-white);
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-smi) var(--padding-smi) var(--padding-sm);
+  box-sizing: border-box;
+}
+.propertiesIcon4 {
+  height: 81px;
+  width: 228px;
+  position: relative;
+  object-fit: contain;
+}
+.greece {
+  width: 269px;
+  border-radius: var(--br-3xs);
+  background-color: var(--primary-white);
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-smi) var(--padding-smi) var(--padding-sm);
+  box-sizing: border-box;
+}
+.propertiesIcon5 {
+  height: 81px;
+  width: 228px;
+  position: relative;
+  object-fit: contain;
+}
+.oculousInnStay {
+  width: 269px;
+  border-radius: var(--br-3xs);
+  background-color: var(--primary-white);
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-smi) var(--padding-smi) var(--padding-sm);
+  box-sizing: border-box;
+}
+.frameIcon {
+  height: 81px;
+  width: 228px;
+  position: relative;
+  object-fit: contain;
+}
+.planAndBookOurPerfectTrip {
+  width: 269px;
+  border-radius: var(--br-3xs);
+  background-color: var(--primary-white);
+  padding: var(--padding-smi) var(--padding-smi) var(--padding-sm);
+}
+.autoLayoutHorizontal,
+.autoLayoutHorizontal1,
+.planAndBookOurPerfectTrip {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  flex-shrink: 0;
+}
+.autoLayoutHorizontal1 {
+  width: 1940px;
+  overflow-x: auto;
+  padding: 0 var(--padding-xl) 0 0;
+  gap: var(--gap-8xl);
+  max-width: 100%;
+}
+.autoLayoutHorizontal {
+  width: 4437px;
+  padding: var(--padding-smi) 0;
+  min-width: 1920px;
+  max-width: 232%;
+}
+.heroContent,
+.worldsTopDestinationsDurin {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.worldsTopDestinationsDurin {
+  overflow: hidden;
+  flex-direction: row;
+}
+.heroContent {
+  flex-direction: column;
+  padding: 0 0 var(--padding-xs);
+  box-sizing: border-box;
+  gap: var(--gap-29xl);
+  text-align: left;
+  font-size: var(--font-size-21xl);
+  color: var(--headblack);
+  font-family: var(--p3);
+}
+@media screen and (max-width: 900px) {
+  .trustedBy65000 {
+    font-size: var(--font-size-13xl);
+    line-height: 42px;
+  }
+  .heroContent {
+    gap: var(--gap-5xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .trustedBy65000 {
+    font-size: var(--p1-size);
+    line-height: 31px;
+  }
+}

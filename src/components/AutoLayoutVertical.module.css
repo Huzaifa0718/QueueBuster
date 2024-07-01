@@ -1,0 +1,68 @@
+.placeholder,
+.totalOrders {
+  position: relative;
+  display: inline-block;
+}
+.totalOrders {
+  line-height: 17px;
+  font-weight: 600;
+  min-width: 60px;
+}
+.placeholder {
+  line-height: 32px;
+  min-width: 75px;
+}
+.arrowUpIcon {
+  height: 7.1px;
+  width: 7.1px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.div {
+  position: relative;
+  line-height: 20px;
+  font-weight: 600;
+}
+.pillsSmall {
+  height: 14px;
+  border-radius: 11.33px;
+  background-color: var(--tertiary-bg-green);
+  display: none;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 0 var(--padding-11xs);
+  box-sizing: border-box;
+  gap: var(--gap-11xs-4);
+  font-size: var(--tertiary-semibold-size);
+  color: var(--secondary-green);
+}
+.autoLayoutVertical,
+.value {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xs-3);
+  font-size: var(--font-size-6xl-5);
+  color: var(--primary-black);
+}
+.autoLayoutVertical {
+  background-color: var(--primary-white);
+  border: 0.7px solid var(--secondary-gray-2);
+  flex-direction: column;
+  padding: var(--padding-base);
+  gap: var(--gap-10xs-8);
+  flex-shrink: 0;
+  text-align: left;
+  font-size: var(--font-size-3xs-9);
+  color: var(--secondary-gray-4);
+  font-family: var(--p3);
+}
+@media screen and (max-width: 450px) {
+  .placeholder {
+    font-size: var(--font-size-xl);
+    line-height: 25px;
+  }
+}
